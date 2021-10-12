@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/">Home</a>
+        <a class="navbar-brand" href="/movies">Home</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -10,7 +10,7 @@
                     <a class="nav-link" href="/movies">Movies</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/add">Add Movie</a>
+                    <a class="nav-link" href="/create">Add Movie</a>
                 </li>
                 </li>
             </ul>
