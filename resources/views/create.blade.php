@@ -3,7 +3,7 @@
 @section('content')
 
 <h1>Add a movie</h1>
-<form action="/movies" method="POST">
+<form action="/create" method="POST">
     @csrf
     <div class="form-group">
         <label for="title">Movie Title</label>
@@ -11,15 +11,15 @@
     </div>
     <div class="form-group">
         <label for="genre"> Movie Genre</label>
-        <input type="text" class="form-control">
+        <input type="text" id='genre' name='genre' class="form-control">
     </div>
     <div class="form-group">
         <label for="director">Directed by</label>
-        <input type="text" class="form-control">
+        <input type="text" id='director' name='director' class="form-control">
     </div>
     <div class="form-group">
         <label for="yearFilmed"></label>
-        <input type="number" min="1900" max="2099" step="1" value="2021" />
+        <input type="number" id='yearFilmed' name='yearFilmed' min="1900" max="2099" step="1" value="2021" />
     </div>
     <div class="form-group">
         <label for="storyline"></label>
