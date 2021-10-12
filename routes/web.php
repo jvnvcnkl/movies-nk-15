@@ -4,7 +4,7 @@ use App\Http\Controllers\MoviesController;
 use Illuminate\Support\Facades\Route;
 
 
-/*
+/* 
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
@@ -20,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::get('/movies', [MoviesController::class, 'index']);
+Route::get('/movies/{id}', [MoviesController::class, 'show']);
